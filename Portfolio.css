@@ -1,0 +1,167 @@
+body{
+	background-color: white;
+	color: black;
+}
+ul{
+	list-style-type: none;
+}
+#text-color{
+	color: black;
+}
+#t-color, #t-color-1, #t-color-2, #t-color-3{
+	color: black;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: black;
+}
+.navbar-default .navbar-toggle{
+    border: 1px solid black;
+}
+.navbar-default .navbar-toggle .icon-bar.scrolled{
+	background-color: white;
+}
+.navbar-default .navbar-toggle.scrolled{
+	border: 1px solid white;
+}
+
+#nav{
+	background: transparent;
+	border-bottom: none;
+	color: black;
+}
+#nav.scrolled{
+    background-color: #0097a7;
+    transition: background-color 200ms linear;
+    color: white;
+}
+#text-color.scrolled{
+	color: white;
+	transition: 200ms linear;
+}
+#t-color.scrolled, #t-color-1.scrolled, #t-color-2.scrolled, #t-color-3.scrolled{
+	color: white;
+	transition: 200ms linear;
+}
+#t-1.scrolled, #t-2.scrolled, #t-3.scrolled{
+	color: white;
+	transition: 200ms linear;
+}
+
+#me{
+	margin-top: 15px;
+	text-align: center;
+}
+#welcome{
+	margin-top: 300px;
+}
+.wrap{
+	color: black;
+}
+#welcome:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 855px;/*550px;*/
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('images/me.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+h2{
+	font-weight: bolder;
+	font-size: 40px;
+}
+h4{
+	font-weight: bolder;
+	font-size: 30px;
+}
+.underline{
+	text-decoration: underline;
+}
+#title-font{
+	font-size: 30px;
+}
+#about{
+	margin-top: 506px;
+	padding-bottom: 25px;
+	padding-top: 27px;
+	background-color: #00acc1;
+	color: white;
+}
+#about-text{
+	font-size: 20px;
+}
+#languages{
+	margin-top: 25px;
+	padding-top: 27px;
+}
+#l-row{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.devicon-html5-plain{
+	font-size: 10rem;
+}
+.devicon-css3-plain{
+	font-size: 10rem;
+}
+.devicon-bootstrap-plain{
+	font-size: 10rem;
+}
+.devicon-javascript-plain{
+	font-size: 10rem;
+}
+.devicon-jquery-plain{
+	font-size: 10rem;
+}
+.devicon-github-plain{
+	font-size: 10rem;
+}
+
+#projects{
+	margin-top: 25px;
+	padding-top: 27px;
+	background-color: #00acc1;
+	color: white;
+}
+#image{
+	box-shadow: 8px 8px 8px black;
+}
+#hover-content{
+	color: white;
+	font-size: 0px;
+	text-align: center;
+	transition: font-size 0.5s ease;
+}
+#image:hover #hover-content{
+	display: block;
+	justify-content: center;
+	font-size: 15px;
+	text-align: center;
+	background: #00acc1;
+}
+p{
+	font-size: 20px;
+}
+#contact{
+	background-color: #00acc1;
+	border-top: 3px solid white;
+}
+#social{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#social:hover{
+	color: grey;
+}
+a{
+	color: white;
+	outline: none;
+}

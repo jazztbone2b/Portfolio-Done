@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script src="https://use.fontawesome.com/8d4e2fe000.js"></script>
+	<title id='ppage'>Portfolio Page</title>
+</header>
+<body>
+	<!--Navbar with Bootstrap-->
+	<nav id='nav' class='navbar navbar-default navbar-fixed-top'>
+		<div class='container-fluid'>
+			<div class='navbar-header'>
+				<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+				</button>
+				<a id='text-color' class='navbar-brand' href='#ppage'>Collin Banks</a>
+			</div>
+			<div class='collapse navbar-collapse' id='myNavbar'>
+				<ul class='nav navbar-nav navbar-right'>
+					<li><a id='t-color' href='#about'>About Me</a></li>
+					<li><a id='t-color-1' href='#languages'>Experience</a></li>
+					<li><a id='t-color-2' href='#projects'>Projects</a></li>
+					<li><a id='t-color-3' href='#contact'>Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id='welcome' class='container text-center'>
+		<div class='col-sm'>
+			<!--Code to create typewriter text-->
+			<h1>
+				<a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I\u0027m Collin Banks.", "I\u0027m a Web Developer.", "I love to create."]'>
+			    <span class="wrap"></span>
+			  	</a>
+			</h1>
+		</div>
+	</div>
+
+	<div id='about' class='container-fluid text-center'>
+		<div id='col-sm-12'>
+			<h3 id='title-font'>About me...</h3>
+			<p id='about-text'>I am a self-taught Front End Web Developer, specializing in HTML, CSS, Bootstrap, JavaScript, and jQuery. I am continuing to expand my knowledge of front-end technologies such as React JS and Angular JS. I am studying with FreeCodeCamp.org to be the best developer I can be.</p>
+		</div>
+	</div>
+
+	<div id='languages' class='container-fluid text-center'>
+		<h3 id='title-font'>Skills</h3>
+		<div id='l-row' class='row'>
+			<div class='col-sm-4'>
+				<i class="devicon-html5-plain colored"></i>
+				<h3 id='title-font'>HTML 5</h3>
+				<p>Page layout, design, and structure.</p>
+			</div>
+
+			<div class='col-sm-4'>
+				<i class="devicon-css3-plain colored"></i>
+				<h3 id='title-font'>CSS 3</h3>
+				<p>Keyframe animations, styling and transitions.</p>
+			</div>
+
+			<div class='col-sm-4'>
+				<i class="devicon-bootstrap-plain colored"></i>
+				<h3 id='title-font'>Bootstrap 4</h3>
+				<p>Responsive design to make beautiful web pages across all screen sizes.</p>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='col-sm-4'>
+				<i class="devicon-javascript-plain colored"></i>
+				<h3 id='title-font'>JavaScript</h3>
+				<p>The 'brains' of the internet. Programming functionality for the web.</p>
+			</div>
+
+			<div class='col-sm-4'>
+				<i class="devicon-jquery-plain colored"></i>
+				<h3 id='title-font'>jQuery</h3>
+				<p>A JavaScript library that simplifies code and gets things done quickly.</p>
+			</div>
+
+			<div class='col-sm-4'>
+				<i class="devicon-github-plain colored"></i>
+				<h3 id='title-font'>Github</h3>
+				<p>Powerful source control, right from the command line.</p>
+			</div>
+		</div>
+	</div>
+
+	<div  id='projects' class='container-fluid bg-4 text-center'>
+		<h3 id='title-font'>Completed Projects</h3>
+		<div class='row'>
+			<div class="col-sm-4">
+				<p>Simon Game</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				This is a Simon inspired game. Try your best to beat it. It's hard!
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Simon-App/' target='_blank'><img src="images/SimonPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+
+   			<div class="col-sm-4">
+   				<p>Pomodoro Clock</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				Increase your productivity with this clean Pomodoro Clock!
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Pomodoro-Productivity-Clock/' target='_blank'><img src="images/PomClockPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+
+   			<div class="col-sm-4">
+   				<p>Tic Tac Toe</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				Try your best to beat this unbeatable game of Tic Tac Toe!
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Tic-Tac-Toe/' target='_blank'><img src="images/TicPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+   		</div>
+
+   		<div class='row'>
+   			<div class="col-sm-4">
+   				<p>JavaScript Calculator</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				Simple JavaScript Calculator influenced by the Stock Android Calculator.
+    				</div>
+      				<a href='https://jazztbone2b.github.io/JavaScript-Calculator/' target='_blank'><img src="images/CalcPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+
+   			<div class="col-sm-4">
+   				<p>Weather Application</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				Weather app that can show you the weather, no matter where you are!
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Weather-App/' target='_blank'><img src="images/WeatherPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+
+   			<div class="col-sm-4">
+   				<p>Twitch Viewer</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				An app using the Twitch API to show who is online from a group of Twitch Streamers.
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Twitch.Tv-App/' target='_blank'><img src="images/TwitchPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+   		</div>
+
+   		<div class='row'>
+   			<div class="col-sm-4">
+   				<p>Wikipedia Viewer</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				Search Wikipedia with this Wikipedia Viewer app that utilizes Wikipedia's API's.
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Wikipedia-Viewer/' target='_blank'><img src="images/WikiPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+
+   			<div class="col-sm-4">
+   				<p>Random Quote Machine</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				Random Quote generator that displays numerous quotes from jazz masters.
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Random-Quote-App/' target='_blank'><img src="images/QuotePic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+
+   			<div class="col-sm-4">
+   				<p>Dynamic Schedule</p>
+      			<div id='image'>
+      				<div id="hover-content">
+        				An online dynamic schedule created for a 3rd grade teacher to track and notify when a group of students
+        				need to leave for a class.
+    				</div>
+      				<a href='https://jazztbone2b.github.io/Resource-Room-App/' target='_blank'><img src="images/ResourceRoomApp.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+      			<br>
+   			</div>
+   		</div>
+
+   		<div class='row'>
+   			<div class='col-sm-4'>
+   				<p>Random Number Game</p>
+   				<div id='image'>
+   					<div id="hover-content">
+        				A JavaScript number guessing game. Better get it right!
+    				</div>
+   					<a href='https://jazztbone2b.github.io/Random-Number-App/' target='_blank'><img src="images/RandomNumPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+   				<br>
+   			</div>
+
+   			<div class='col-sm-4'>
+   				<p>Techincal Documentation Webpage</p>
+   				<div id='image'>
+   					<div id="hover-content">
+        				Sample technical documentation webpage showcasing responsive web design and layout.
+    				</div>
+   					<a href='https://s.codepen.io/jazztbone2b/full/aVzgzd/' target='_blank'><img src="images/TechDocPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+   				<br>
+   			</div>
+
+   			<div class='col-sm-4'>
+   				<p>Sample Survey Webpage</p>
+   				<div id='image'>
+   					<div id="hover-content">
+        				Sample survey webpage showcasing clean, responsive design.
+    				</div>
+   					<a href='https://codepen.io/jazztbone2b/full/zPxVGG/' target='_blank'><img src="images/SurveyPic.jpg" class="img-responsive" style="width:100%" alt="Image"></a></div>
+   				<br>
+   			</div>
+		</div>
+	</div>
+
+	<div id='contact' class='container-fluid text-center'>
+		<div class='row'>
+		
+			<div id='social-row' class='col-sm-14'>
+				<a href='https://www.facebook.com/collinbanks' target='_blank'><i id='social' class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+				<a href='https://www.instagram.com/jazztbone2b/' target='_blank'><i id='social' class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+				<a href='https://github.com/jazztbone2b' target='_blank'><i id='social' class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+				<a href='https://www.freecodecamp.org/jazztbone2b' target='_blank'><i id='social' class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i></i></a>
+			</div>
+
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="Portfolio.js"></script>
+</body>
+</html>
