@@ -126,6 +126,7 @@ function typeContent() {
     document.body.appendChild(css);
 };
 
+////////////function that fades in the content as the page is scrolled////////////
 function fadeContent() {
     
     /* Every time the window is scrolled ... */
@@ -140,7 +141,7 @@ function fadeContent() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},400);
+                $(this).animate({'opacity':'1'},250);
             }
             
         }); 
