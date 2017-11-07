@@ -168,3 +168,6 @@ a{
 a:visited{
 	color: white;
 }
+.fade-in{
+	opacity: 0;
+}
