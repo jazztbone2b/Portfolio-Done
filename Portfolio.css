@@ -86,7 +86,7 @@ h4{
 	font-size: 30px;
 }
 #about{
-	margin-top: 512px;
+	margin-top: 496px;
 	padding-bottom: 25px;
 	padding-top: 27px;
 	background-color: #00acc1;
@@ -171,8 +171,11 @@ a:visited{
 	opacity: 0;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1200px){
 	#welcome:after{
-		height: 500px;
+		height: 830px;
+	}
+	#about{
+		margin-top: 470px;
 	}
 }
